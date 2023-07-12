@@ -620,3 +620,5 @@ exec_always setxkbmap -layout us
 
 #launch processes
 exec_always ~/.config/i3/scripts/launch-processes
+
+exec_always feh --bg-scale ~/Pictures/bg.png
