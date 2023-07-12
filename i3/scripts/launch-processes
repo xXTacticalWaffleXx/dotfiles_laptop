@@ -1,9 +1,10 @@
 #!/bin/bash
 
-if ! ps -aux | grep -v grep | grep "polybar monitor1"; then
+if ! ps -aux | grep -v grep | grep "polybar status"; then
   polybar status
 fi
 
 if ! ps -aux | grep -v grep | grep "glava --desktop"; then
-  glava --desktop
+  #commented because i havent configured glava yet
+  #glava --desktop
 fi
