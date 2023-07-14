@@ -89,7 +89,7 @@ case $chosen in
         ;;
     $lock)
     	sleep 0.2 # this line is here because otherwise you see the fading away powermenu
-    	../scripts/lock.sh
+    	. ~/.config/rofi/scripts/lock.sh
 		#if [[ -f /usr/bin/i3lock ]]; then
 		#	i3lock
 		#elif [[ -f /usr/bin/betterlockscreen ]]; then
