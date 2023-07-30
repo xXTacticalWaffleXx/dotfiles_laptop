@@ -7,8 +7,8 @@ if [[ $dingus == "No players found" ]]; then
 else
   paused=$(playerctl status)
   if [[ $paused == "Paused" ]]; then
-   echo ""
+   echo ""
  else
-   echo ""
+   echo ""
   fi
 fi
